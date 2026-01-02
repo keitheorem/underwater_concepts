@@ -27,7 +27,7 @@ error = x - function
 
 # Newton Raphson Iteration 
 while error > epi: 
-  derivative = 18/R + alpha 
+  derivative = 18 / (R * np.log(10)) + alpha 
   R = R + error/derivative
   function = 18*np.log10(R) + alpha * R
   error = x - function 
