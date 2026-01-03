@@ -10,10 +10,10 @@ import numpy as np
 # alpha is known (calculated)
 
 # Known variables
-SL = 150       # Source Level - Intensity of sound of sonar transducer, can be found on sonar spec sheet
+SL = 150       # Source Level - Intensity of sound, can be found on equipment spec sheet
 NL = 60        # Noise Level - Ambient noise, measured data or from published ambient noise data
 DI = 10        # Directivity Index - How directional a receiver is, from sonar spec sheet
-DT = 10        # Detection Threshold - The minimum signal excess required to reliably detect a target, from operational requirement 
+DT = 10        # Detection Threshold - The minimum signal excess required to reliably detect a target, from operational requirements 
 alpha = 0.054   # Absorption coefficient - Sound absorption in the medium, from published tables or calculated from environmental parameters
 
 # RHS of Sonar Equation
