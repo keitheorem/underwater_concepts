@@ -5,7 +5,7 @@ import numpy as np
 
 # The RHS of the sonar equation where RHS = SL - NL + DI - DT is a known value 
 
-# Where the LHS is a non-linear equation 18 log (R) + alpha * R, 
+# Where the LHS is a non-linear equation 18 log (R) + alpha * R, the model for Transmission Loss
 # where R is the unknown 
 # alpha is known (calculated)
 
